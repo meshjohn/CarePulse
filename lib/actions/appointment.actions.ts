@@ -85,7 +85,6 @@ export const UpdateAppointment = async ({
   userId,
   appointment,
   type,
-  timeZone,
 }: UpdateAppointmentParams) => {
   try {
     const updatedAppointment = await databases.updateDocument(
